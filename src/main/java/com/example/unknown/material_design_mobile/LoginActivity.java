@@ -33,6 +33,7 @@ private ViewFlipper viewFlipper;
                 Intent intent=new Intent(LoginActivity.this,Signup.class);
                 startActivity(intent);
                 //ytfytrdtrdtr
+                //fgytftrdtrd
             }
         });
         mPasswordView = (EditText) findViewById(R.id.password);
