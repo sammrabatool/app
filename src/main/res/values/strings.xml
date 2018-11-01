@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="personal_details">Personal Details</string>
+    <string name="notifications">Notifications</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="title_activity_profile_main">profileMain</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">action_sign_in_short</string>
+    <string name="prompt_password">prompt_password</string>
+    <string name="prompt_email">prompt_email</string>
+    <string name="error_invalid_password">enter correct password</string>
+    <string name="error_field_required">need email pattern</string>
+    <string name="error_invalid_email">email is not correct</string>
+    <string name="title_activity_home">title_activity_home</string>
+    <string name="app_name">APP</string>
+
+</resources>

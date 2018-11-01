@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.unknown.material_design_mobile.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:padding="0dp"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/companyID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Company ID"
+                android:inputType="text"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:paddingLeft="20dp"
+                android:drawablePadding="20dp"
+                android:textColor="#6b7685"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_3"
+                android:textSize="20dp"/>
+            <!--   android:drawableStart="@drawable/user" -->
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="2"
+           android:layout_margin="10dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal">
+           <EditText
+               android:id="@+id/userID"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:hint="User ID"
+               android:inputType="text"
+               android:gravity="center_vertical"
+               android:textAllCaps="true"
+               android:paddingLeft="20dp"
+               android:drawablePadding="20dp"
+               android:textColor="#6b7685"
+               android:background="@drawable/rectangle_3"
+               android:layout_margin="10dp"
+               android:textSize="20dp"/>
+           <!--    android:drawableStart="@drawable/lock" -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/instanceName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Instance Name"
+                android:inputType="text"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:paddingLeft="20dp"
+                android:drawablePadding="20dp"
+                android:textColor="#6b7685"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_3"
+                android:textSize="20dp"/>
+             <!--   android:drawableStart="@drawable/user" -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rectangle_10"
+                android:clickable="true"
+                android:onClick="MoveToOPTActivity"
+                android:padding="16dp"
+                android:text="Sign up"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+        </LinearLayout>
+   <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/line_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="OR"
+                    android:textSize="15dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="2"
+               android:gravity="center_vertical"
+               android:orientation="horizo>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="10dp"
+                   android:background="@drawable/rectangle_1"
+                   android:clickable="true"
+                   android:padding="16dp"
+                   android:text="connent with facebook"
+                   android:textAllCaps="true"
+                   android:textColor="#fff"
+                   android:textSize="20dp" />
+        </LinearLayout>  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
